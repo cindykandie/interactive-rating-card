@@ -57,15 +57,15 @@ p{
     font-family: var(--fontFamily);
     font-size: 0.8rem;
     transition: var(--transition);
+    cursor: pointer;
 }
 .rating-btns li:hover{
     background-color: var(--lightGrey);
     opacity: 1;
 }
-.active-rate{
+.rating-btns li.active-rate{
     background-color: var(--mainOrange);
     opacity: 1;
-
 }
 .submit-btn{
     background-color: var(--mainOrange);
@@ -78,6 +78,8 @@ p{
     letter-spacing: 0.2rem;
     font-family: var(--fontFamily);
     transition: var(--transition);
+    cursor: pointer;
+
 }
 .submit-btn:hover{
     background-color: var(--whiteShade);
@@ -87,6 +89,7 @@ p{
     align-items: center;
     text-align: center;
     gap: 0.1rem;
+    display: none;
 }
 .message-title{
     background-color: rgb(75, 74, 74);
